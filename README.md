@@ -1,57 +1,42 @@
-🚀 Features
-Addition
+# Kotlin Calculator
 
-Subtraction
+This is a simple calculator app developed using **Kotlin** for Android. It allows users to perform basic arithmetic operations with an intuitive interface.
 
-Multiplication
+---
 
-Division
+## 🚀 Features
 
-User-friendly interface with ViewBinding
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- User-friendly interface with **ViewBinding**
+- Input validation for empty fields
 
-Input validation for empty fields
+---
 
-💻 Technologies Used
-Kotlin
+## 💻 Technologies Used
 
-Android Studio
+- Kotlin
+- Android Studio
+- ViewBinding
 
-ViewBinding
+---
 
-📱 How It Works
-Users enter two numbers in the input fields.
+## 📱 How It Works
 
-By clicking the operation buttons (+, −, ×, ÷), the result is calculated and displayed below.
+- Users enter two numbers in the input fields.
+- By clicking the operation buttons (+, −, ×, ÷), the result is calculated and displayed below.
+- If input fields are empty or invalid, an error message prompts the user to enter numbers.
 
-If input fields are empty or invalid, an error message prompts the user to enter numbers.
+---
 
-📝 Code Overview
+## 📝 Code Overview
+
 The app uses four main functions:
 
-kotlin
-Kopyala
-Düzenle
+```kotlin
 fun mySum(view: View) { /* Addition */ }
 fun mySubt(view: View) { /* Subtraction */ }
 fun myDiv(view: View) { /* Division */ }
-fun myMulti(view: View) { /* Multiplication */ }
-Each function:
-
-Retrieves the numbers from the input fields.
-
-Checks for null values.
-
-Calculates the result if inputs are valid.
-
-Updates the result TextView with the output.
-
-🎯 Purpose
-This project was developed to practice:
-
-Android app development fundamentals
-
-Kotlin syntax and functions
-
-ViewBinding implementation
-
-Basic user input validation
+fun myMult
